@@ -37,13 +37,13 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'account',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'account',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +125,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Email
+EMAIL_HOST = 'smtp.yandex.ru'
+DEFAULT_FROM_EMAIL = 'ivan.unchained@yandex.ru'
+EMAIL_HOST_USER = 'ivan.unchained@yandex.ru'
+EMAIL_HOST_PASSWORD = 'q2w3e4r5Q'
+EMAIL_PORT = 465
+EMAIL_USE_SSL = True
+
