@@ -47,6 +47,8 @@ urlpatterns = [
         name='password_reset_complete'),
     url(r'^register/$',
         views.register,
-        # {'template_name': 'registration/register.html'},
         name='register'),
+    url(r'^edit/$',
+        views.edit,
+        name='edit'),
 ]
