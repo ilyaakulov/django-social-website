@@ -139,3 +139,8 @@ EMAIL_HOST_PASSWORD = 'q2w3e4r5Q'
 EMAIL_PORT = 465
 EMAIL_USE_SSL = True
 
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'account.authentication.EmailAuthBackend',
+)
+
