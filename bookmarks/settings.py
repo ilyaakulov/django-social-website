@@ -43,7 +43,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'account',
-    'social.apps.django_app.default',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -143,10 +142,5 @@ EMAIL_USE_SSL = True
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
     'account.authentication.EmailAuthBackend',
-    'social.backends.vk.VKOAuth2',
 )
-
-# VK
-VK_APP_ID = '5844748'
-VK_API_SECRET = 'dEg30ivddehqghby7yyl'
 

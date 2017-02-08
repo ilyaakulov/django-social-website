@@ -1,14 +1,6 @@
-defusedxml==0.4.1
 Django==1.10.5
-oauthlib==2.0.1
 olefile==0.44
 Pillow==4.0.0
-PyJWT==1.4.2
-python-social-auth==0.3.4
-python3-openid==3.0.10
 requests==2.13.0
-requests-oauthlib==0.7.0
 six==1.10.0
-social-auth-app-django==1.0.0
-social-auth-core==1.0.1
 yolk3k==0.9
