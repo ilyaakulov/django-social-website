@@ -44,3 +44,12 @@ def image_detail(request, id, slug):
                   'images/image/detail.html',
                   {'section': 'images',
                    'image': image})
+
+
+@login_required
+def images_list(request):
+    images = Image.objects.filter(user=request.user)
+    return render(request,
+                  'images/image/images.html',
+                  {'section': 'images',
+                   'images': images})

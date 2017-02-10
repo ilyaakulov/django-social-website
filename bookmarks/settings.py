@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'account',
     'images',
     'social_django',
+    'sorl.thumbnail',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -166,3 +167,5 @@ SOCIAL_AUTH_PIPELINE = (
     'social.pipeline.social_auth.load_extra_data',
     'social.pipeline.user.user_details',
 )
+
+THUMBNAIL_DEBUG=True
