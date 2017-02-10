@@ -24,6 +24,7 @@ urlpatterns = [
     url(r'^account/', include('account.urls')),
     url('', include('social.apps.django_app.urls', namespace='social')),
     url(r'', include('django.contrib.auth.urls', namespace='auth')),
+    url(r'^images/', include('images.urls', namespace='images')),
 ]
 
 if settings.DEBUG:

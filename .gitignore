@@ -1,0 +1,13 @@
+.idea/
+account/.idea/
+account/__pycache__/
+account/migrations/
+images/.idea/
+images/__pycache__/
+images/migrations/
+bookmarks/.idea/
+bookmarks/__pycache__/
+db.sqlite3
+manage.py
+media/
+
